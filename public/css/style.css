@@ -1,0 +1,217 @@
+body {
+    background-image: linear-gradient(to right, rgba(39, 170, 225), rgba(43, 57, 144), rgba(43, 43, 43));
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(43, 57, 144), 0 6px 20px 0 rgba(43, 43, 43);
+    height: 600px;
+    margin-top: 20%;
+}
+
+.card-body {
+    background: url('../img/bg3.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    display: none;
+}
+
+.links span {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgba(253, 199, 12), rgba(243, 144, 63), rgba(237, 104, 60));
+}
+
+.links span i {
+    font-size: 40px;
+    text-align: center;
+}
+
+.links span a {
+    color: #2B3990;
+}
+
+.links span:hover {
+    transition: 0.5s;
+    width: 55px;
+    height: 55px;
+    background-image: linear-gradient(to right, rgba(253, 199, 12), rgba(243, 144, 63), rgba(237, 104, 60));
+}
+
+.links span a:hover i {
+    transition: 0.3s;
+
+    transform: scale(1.4);
+}
+
+.web {
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 88%;
+}
+
+.mail {
+    display: none;
+    position: absolute;
+    left: 11%;
+    top: 77%;
+}
+
+.wa {
+    display: none;
+    position: absolute;
+    left: 28%;
+    top: 68%;
+}
+
+.fm {
+    display: none;
+    position: absolute;
+    right: 40%;
+    top: 61%;
+}
+
+.tr {
+    display: none;
+    position: absolute;
+    right: 20%;
+    top: 58%;
+}
+
+.li {
+    display: none;
+    position: absolute;
+    right: 1%;
+    top: 57%;
+}
+
+.slogan {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    text-transform: uppercase;
+}
+
+.hint {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-transform: capitalize;
+}
+
+.hint h5 {
+    color: #FDCA10;
+}
+
+.card .logo img {
+    width: 50%;
+}
+
+/*=============responsive start===========*/
+
+/* Mobile device */
+@media (max-width:600px) {
+    .card {
+        height: 600px;
+        margin-top: 30%;
+    }
+
+    .links span {
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: linear-gradient(to right, rgba(253, 199, 12), rgba(243, 144, 63), rgba(237, 104, 60));
+    }
+
+    .links span i {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .web {
+        display: none;
+        position: absolute;
+        left: 0%;
+        top: 82%;
+    }
+
+    .mail {
+        display: none;
+        position: absolute;
+        left: 12%;
+        top: 73%;
+    }
+
+    .wa {
+        display: none;
+        position: absolute;
+        left: 28%;
+        top: 65%;
+    }
+
+    .fm {
+        display: none;
+        position: absolute;
+        right: 40%;
+        top: 59%;
+    }
+
+    .tr {
+        display: none;
+        display: none;
+        position: absolute;
+        right: 20%;
+        top: 55%;
+    }
+
+    .li {
+        display: none;
+        position: absolute;
+        right: 1%;
+        top: 53%;
+    }
+
+    .slogan {
+        display: none;
+        position: absolute;
+        top: 70%;
+        right: -15%;
+
+    }
+
+    .slogan h4 {
+        margin: 45px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .hint {
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+        text-transform: capitalize;
+    }
+}
+
+/* Tablet device */
+@media (max-width:600px) {}
+
+/* laptop device */
+@media (max-width:600px) {}
+
+/* Desktop device */
+@media (min-width: 601px) and (max-width:1920px) {}
